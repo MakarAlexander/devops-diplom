@@ -14,6 +14,7 @@
     - [Установка и настройка CI/CD](#установка-и-настройка-cicd)
     - [Решение](#решение-4)
   - [Что необходимо для сдачи задания?](#что-необходимо-для-сдачи-задания)
+    - [Результат:](#результат)
 
 **Перед началом работы над дипломным заданием изучите [Инструкция по экономии облачных ресурсов](https://github.com/netology-code/devops-materials/blob/master/cloudwork.MD).**
 
@@ -272,3 +273,16 @@ cat test.kubeconfig | base64
 5. Репозиторий с конфигурацией Kubernetes кластера.
 6. Ссылка на тестовое приложение и веб интерфейс Grafana с данными доступа.
 7. Все репозитории рекомендуется хранить на одном ресурсе (github, gitlab)
+
+### Результат:
+Приложение доступно по адресу: http://app.amakartsev.ru/
+
+Графана доступна по адресу: http://grafana.amakartsev.ru
+
+Логин - admin
+
+Пароль - prom-operator
+
+Репозиторий с приложением: https://github.com/MakarAlexander/nginx-static
+
+Github Actions: https://github.com/MakarAlexander/nginx-static/actions
