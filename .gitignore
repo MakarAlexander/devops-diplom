@@ -1,0 +1,11 @@
+# Terraform
+personal.auto.tfvars
+.terraform*
+terraform.tfstate*
+
+# S3
+credfile.key
+
+# K8S
+ca.pem
+test.kubeconfig
