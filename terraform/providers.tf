@@ -10,8 +10,8 @@ terraform {
     endpoints = {
       s3 = "https://storage.yandexcloud.net"
     }
-    bucket = var.bucket_name
-    region = var.bucket_zone
+    bucket = "amakartsev-bucket"
+    region = "ru-central1"
     key = "terraform/terraform.tfstate"
     shared_credentials_files    = ["./credfile.key"]
     skip_region_validation      = true

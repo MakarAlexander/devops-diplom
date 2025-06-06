@@ -61,17 +61,3 @@ variable "packages" {
   default = ["nano", "mc"]
   description = "Packages to install on vm creates"
 }
-
-# Для бакета
-variable "bucket_name" {
-  type = string
-  default = "amakartsev-bucket"
-  description = "Name of S3 bucket for backend"
-}
-
-# Для бакета
-variable "bucket_zone" {
-  type = string
-  default = "ru-central1"
-  description = "Zone for S3 bucket for backend"
-}
