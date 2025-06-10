@@ -260,8 +260,10 @@ cat test.kubeconfig | base64
 Секреты настроены. Теперь настраиваем [workflow](https://github.com/MakarAlexander/nginx-static/blob/main/.github/workflows/main.yml)
 [Pipeline](https://github.com/MakarAlexander/nginx-static/actions) с указанием версии проходит успешно
 ![15](./images/15.png)
-Версия с новым тегов сохраняется в Dockerhub
 ![16](./images/16.png)
+![17](./images/17.png)
+Версия с новым тегов сохраняется в Dockerhub
+![18](./images/18.png)
 
 ---
 ## Что необходимо для сдачи задания?
